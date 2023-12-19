@@ -76,7 +76,7 @@ def check():
         print()
         a = input(termcolor.colored("[+]Do U Want To Remove Old File Or Rename File:- ", 'blue'))
         print()
-        if (a == "del" or a == "rem"):
+        if (a == "del" or a == "ren"):
             os.remove('stub.py')
             time.sleep(1)
             print(termcolor.colored("[*] File Successfully Deleted...", 'green'))
